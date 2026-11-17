@@ -12,11 +12,6 @@ class Bus:
     depth: int = 0
 
 
-def Bus:
-    """class"""
-    raise NotImplementedError("Bus 尚未实现")
-
-
 def subscribe(bus, topic, handler, priority):
     """订阅"""
     raise NotImplementedError("subscribe 尚未实现")
@@ -30,9 +25,4 @@ def publish(bus, topic, payload):
 def dispatch(bus, max_depth):
     """派发"""
     raise NotImplementedError("dispatch 尚未实现")
-
-
-def unsubscribe(path):
-    """读入与落盘辅助"""
-    raise NotImplementedError("unsubscribe 尚未实现")
 
