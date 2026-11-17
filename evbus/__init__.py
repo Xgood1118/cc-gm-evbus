@@ -1,1 +1,1 @@
-"""事件总线优先级与重入"""
+from .core import *  # noqa: F401,F403
