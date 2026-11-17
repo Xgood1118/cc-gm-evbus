@@ -1,0 +1,86 @@
+{
+  "error_log": [
+    {
+      "exception": "RuntimeError",
+      "priority": -1,
+      "seq": 1,
+      "topic": "t"
+    },
+    {
+      "exception": "RuntimeError",
+      "priority": -1,
+      "seq": 1,
+      "topic": "t"
+    }
+  ],
+  "input": "data/events.json",
+  "max_depth": 2,
+  "stats": {
+    "deferred": 2,
+    "dispatches": 6,
+    "errors": 2,
+    "max_depth_seen": 2
+  },
+  "trace": [
+    {
+      "depth": 1,
+      "handler": "t_p1",
+      "status": "ok",
+      "topic": "t"
+    },
+    {
+      "depth": 1,
+      "handler": "t_p0",
+      "status": "ok",
+      "topic": "t"
+    },
+    {
+      "depth": 2,
+      "handler": "m_p0",
+      "status": "ok",
+      "topic": "m"
+    },
+    {
+      "depth": 1,
+      "handler": "t_m1",
+      "status": "raising",
+      "topic": "t"
+    },
+    {
+      "depth": 1,
+      "handler": "t_p1",
+      "status": "ok",
+      "topic": "t"
+    },
+    {
+      "depth": 1,
+      "handler": "t_p0",
+      "status": "ok",
+      "topic": "t"
+    },
+    {
+      "depth": 2,
+      "handler": "m_p0",
+      "status": "ok",
+      "topic": "m"
+    },
+    {
+      "depth": 1,
+      "handler": "t_m1",
+      "status": "raising",
+      "topic": "t"
+    },
+    {
+      "depth": 1,
+      "handler": "n_p0",
+      "status": "ok",
+      "topic": "n"
+    },
+    {
+      "depth": 1,
+      "handler": "n_p0",
+      "status": "ok",
+      "topic": "n"
+    }
+  ]
+}
