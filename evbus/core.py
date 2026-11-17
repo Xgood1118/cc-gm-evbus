@@ -26,3 +26,8 @@ def dispatch(bus, max_depth):
     """派发"""
     raise NotImplementedError("dispatch 尚未实现")
 
+
+def unsubscribe(path):
+    """读入与落盘辅助"""
+    raise NotImplementedError("unsubscribe 尚未实现")
+
